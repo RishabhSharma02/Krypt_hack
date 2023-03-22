@@ -8,14 +8,14 @@ import 'Profilepage.dart';
 import 'chips.dart';
 import 'doctors.dart';
 
-class Loginpage extends StatefulWidget {
-  const Loginpage({super.key});
+class HomePage extends StatefulWidget {
+  const HomePage({super.key});
 
   @override
-  State<Loginpage> createState() => _LoginpageState();
+  State<HomePage> createState() => _HomePageState();
 }
 
-class _LoginpageState extends State<Loginpage> {
+class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Stack(
